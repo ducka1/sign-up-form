@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Aero;
+  src: url(./fonts/Aero.ttf);
+}
+
+.cover img {
+  width: 30vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: gainsboro;
+}
+
+.logo {
+  width: 30vw;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: Aero;
+  font-size: 48px;
+  margin-top: 15vh;
+  padding: 20px;
+  gap: 20px;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+
+:visited, :link {
+  color: white;
+}
+
+.credits {
+  position: absolute;
+  color: white;
+  margin-top: 98vh;
+}
+
+header, main, .actions {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+}
