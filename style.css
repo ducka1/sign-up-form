@@ -62,3 +62,21 @@ header {
   gap: 10px;
   margin-left: 20px;
 }
+
+main {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: white;
+}
+
+main form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10vh;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 20vh;
+}
